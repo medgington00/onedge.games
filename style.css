@@ -1,0 +1,44 @@
+body {
+  height:100%;
+}
+h1 {
+  background: rgb(255,127,0);
+  background: linear-gradient(90deg, rgba(255,127,0,1) 0%, rgba(255,127,0,1) 10%, rgba(255,157,0,1) 90%, rgba(255,127,0,1) 100%);
+  text-align: center;
+  padding-top:3%;
+  margin-top:-2%;
+  padding-bottom:3%;
+  order:1;
+}
+
+#content {
+  background-color:rgb(240,240,240);
+  width:80%;
+  height:10000px;
+  margin-left:10%;
+  margin-right:10%;
+  bottom:0;
+  order:0;
+}
+
+#homeimg {
+  width:5%;
+  height:auto;
+}
+
+#updatesimg {
+  width:8%;
+  height:auto;
+}
+
+#aboutimg {
+  width:6%;
+  height:auto;
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width:100%;
+}
