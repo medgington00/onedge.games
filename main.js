@@ -1,10 +1,10 @@
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {navBar()};
                 
 var navbar = document.getElementById("StickyNav");
 
 var sticky = 128;
             
-function myFunction() {
+function navBar() {
     if (window.pageYOffset >= sticky) {
         navbar.classList.add("Scrolled");
         navbar.classList.remove("Unscrolled");
