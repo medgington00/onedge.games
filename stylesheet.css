@@ -1,0 +1,104 @@
+body {
+    height:100%;
+    background-color: rgb(255,255,255);
+}
+
+.border {
+}
+
+#MainNav {
+    background-color:rgb(255, 158, 3);
+    position:absolute;
+    width:100%;
+    left:0px;
+    height:128px;
+    top:0px;
+}
+
+#MainText {
+    position:absolute;
+    width:100%;
+    left:0%;
+    top:0px;
+    height:128px;
+    font-family: Impact;
+    font-size: 72px;
+    text-align: center;
+    color:rgb(240,240,240);
+}
+
+#StickyNav {
+    background-color:rgb(255, 158, 3);
+    height:64px;
+    width:100%;
+    left:0%;
+    z-index: 1;
+    border-bottom-style:solid;
+    border-bottom-width:2px;
+    border-bottom-color:rgb(55,55,55);
+}
+
+#StickyText {
+    position:absolute;
+    left:0%;
+    width:100%;
+    top:8px;
+    height:100%;
+    font-family: Impact;
+    font-size:36px;
+    text-align:center;
+    word-spacing:24px;
+}
+
+#StickyText a{
+    color:rgb(240,240,240);
+    text-decoration: none;
+    transition:.3s;
+}
+
+#StickyText a:hover{
+    color:rgb(200,200,200);
+}
+
+.Scrolled {
+    position: fixed;
+    top: 0px;
+}
+
+.Unscrolled {
+    position:absolute;
+    top:128px;
+}
+
+#Content {
+    background-color:rgb(155,155,155);
+    position:absolute;
+    width:74%;
+    left:12.5%;
+    top:192px;
+    height:1920px;
+}
+
+.GameBox {
+    position: absolute;
+    background-color:rgb(100,100,100);
+    width:100%;
+    left:0%;
+    height:256px;
+}
+
+#Tetris {
+    top:0px;
+}
+
+#Minesweeper {
+    top:320px;
+}
+
+.GameText {
+    font-family: Arial Black;
+    color: rgb(200,200,200);
+    text-align: center;
+    display:block;
+    font-size:48px;
+}
