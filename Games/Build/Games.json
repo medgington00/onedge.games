@@ -1,6 +1,6 @@
 {
-"companyName": "DefaultCompany",
-"productName": "game00",
+"companyName": "On Edge Games",
+"productName": "Pong",
 "productVersion": "0.1",
 "dataUrl": "Games.data.unityweb",
 "wasmCodeUrl": "Games.wasm.code.unityweb",
@@ -12,5 +12,5 @@
 "cacheControl": {"default": "must-revalidate"},
 "developmentBuild": false,
 "multithreading": false,
-"unityVersion": "2019.2.6f1"
+"unityVersion": "2019.3.1f1"
 }
